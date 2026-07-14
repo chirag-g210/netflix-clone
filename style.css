@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    background: url(images/bg.jpg);
+    height: max(800px, 30vh);
+    position: relative;
+    background-size: max(1550px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.main .box {
+    height: max(800px, 30vh);
+    width: 100%;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.main nav {
+    max-width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main nav div :first-child {
+    background-color: transparent;
+    font-size: 20px;
+    margin: 10px;
+    padding: 5px 40px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.main nav div :last-child {
+    background-color: red;
+    font-size: 20px;
+    margin: 10px;
+    padding: 8px 20px;
+    color: white;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.main nav span img {
+    margin-top: 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.main nav div {
+    position: relative;
+    z-index: 10;
+}
+
+.main .para {
+    margin-top: 250px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 10;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main .para p1 {
+    font-size: 50px;
+    font-weight: 900;
+
+
+}
+
+.main .para p2 {
+    padding: 50px;
+    font-size: 30px;
+
+}
+
+.main .para p3 {
+    font-size: 25px;
+}
